@@ -5,11 +5,11 @@ Each PRD is structured like a real-world product spec, with **KPIs, user stories
 
 ---
 
-## 📂 What’s Inside
+## 📂 Repository Structure
 
-### ✅ Templates
-- **[TEMPLATE_PRD.md](./TEMPLATE_PRD.md)** → Standardized PRD format with goals, KPIs, scope, UX flows, data notes, rollout, and open questions.  
-- **[roadmap.q1-q2.md](./roadmap.q1-q2.md)** → Example 2-quarter roadmap with MVP → V2 milestones.  
+### 🧩 Templates
+- 📄 [TEMPLATE_PRD.md](./TEMPLATE_PRD.md) → Standard PRD template with goals, KPIs, scope, flows, rollout, trade-offs.  
+- 🗺 [roadmap.q1-q2.md](./roadmap.q1-q2.md) → Example roadmap for Q1–Q2 delivery.  
 
 ### 🎯 Example PRDs
 - **[AI Feedback Summarizer](./ai-ml/prd_ai_feedback_summarizer.md)**  
@@ -17,26 +17,27 @@ Each PRD is structured like a real-world product spec, with **KPIs, user stories
   - Solution: Weekly AI-generated summaries with themes & sentiment.  
   - KPIs: -50% time-to-insight, +25% coverage of feedback sources.  
 
-### 📁 Domains
-- `/fintech/` → lending, KYC, payments *(coming soon)*  
-- `/ai-ml/` → LLM assistants, feedback summarization  
-- `/saas/` → dashboards, billing, roles/permissions *(coming soon)*  
+### 🎯 Domains
+- 🤖 [AI & ML](./ai-ml) → LLM assistants, AI feedback summarization  
+- 💳 [FinTech](./fintech) → Lending, KYC automation, payments *(placeholders added)*  
+- ☁️ [SaaS](./saas) → Admin dashboards, billing, roles & permissions *(placeholders added)*  
 
 ---
 
 ## 💡 How to Use
-1. Open a PRD → read it as if it’s a real product spec.  
-2. Review KPIs, scope, and trade-offs.  
-3. Use the `TEMPLATE_PRD.md` to draft your own.  
+1. Open a PRD → review it as if it’s a real spec.  
+2. Look at **Problem → Solution → KPIs → Roadmap → Trade-offs**.  
+3. Use the `TEMPLATE_PRD.md` to draft your own PRD.  
 
 ---
 
 ## 🚀 Why This Repo
-This repository demonstrates **product thinking at scale**:
+This repository demonstrates **how I approach product documentation**:
 - Writing clear **problem statements & success metrics**  
-- Balancing **scope, trade-offs, and non-functional requirements**  
+- Structuring **acceptance criteria & non-functional requirements**  
 - Roadmapping features with measurable milestones  
 
 ---
 
-📌 *These PRDs are not hypothetical exercises — they’re structured as if they were ready for engineering handoff, showcasing how I think as a Product Manager.*
+📌 *These PRDs are written to reflect real-world PM deliverables, showcasing both product strategy and technical understanding.*
+
